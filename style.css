@@ -1,0 +1,66 @@
+body{
+	font-family: sans-serif;
+	background-repeat: repeat;
+	background-image:url(portrait1.png);
+	background-size: cover;
+}
+h1{
+	font-size: 25px;
+	text-align: center;
+}
+form{
+	height: 150px;
+	margin: 120px;
+	width: 560px;
+	background-color: white;
+	padding: 190px;
+	text-align: center;
+	margin-left: 10px;
+}
+i{
+	margin-left: 430px;
+	margin-top: 10px;
+}
+.image{
+	float: left;
+}
+.image img{
+	margin: -190px;
+	width: 400px;
+	height: 530px;
+}
+.div2{
+	display: inline-flex;
+	padding-bottom: 2px;
+}
+.div1{
+	margin: -160px;
+	width: 450px;
+	height: 450px;
+	float:right;
+	display: inline-flex;
+	flex-direction:column;
+	margin-bottom: 30px;
+	justify-content: space-between; 
+
+}
+.div1 input{
+	border-left: none;
+	border-right: none;
+	border-top:none; 
+
+}
+.div1 select{
+		border-left: none;
+	border-right: none;
+	border-top:none; 
+
+}
+.Mada{
+	 color: white;
+ 	background-color: black;
+ 	width: 100px;
+ 	height: 40px;
+    margin-left: 30px;
+ 	margin-top: 30px;
+}
